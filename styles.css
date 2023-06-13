@@ -1,0 +1,280 @@
+/* styles.css */
+/* styles.css */
+
+body {
+    /* ... */
+    font-family: 'Montserrat', sans-serif;
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f8f8f8;
+    
+}
+
+#navbar {
+    background: linear-gradient(to right, #fff, #ccc);
+    color: #333;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 1s ease;
+}
+
+#navbar .logo, #navbar ul li a {
+    /* ... */
+    transition: color 0.3s ease;
+}
+
+#navbar .logo:hover, #navbar ul li a:hover {
+    color: #000;
+}
+
+section, .footer-content {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background: #fff;
+    transition: background 1s ease;
+}
+
+.bg-img {
+    background: url('bg.jpg') no-repeat center center/cover;
+}
+
+footer {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    transition: background 1s ease;
+}
+
+.footer-content {
+    padding: 20px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h1, h2, p, a {
+    font-family: 'Montserrat', sans-serif;
+    animation: fadeIn 2s;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#navbar .logo {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 24px;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#home {
+    background-color: #eee;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 48px;
+}
+
+#home p {
+    font-size: 24px;
+}
+
+#home .cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#pricing, #calendar, #contact {
+    background-color: #f8f8f8;
+}
+
+footer {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.footer-content {
+    padding: 20px;
+    color: #fff;
+}
+
+.bg-img {
+    background: url('photo.jpg');
+}
+
+
+body {
+    /* ... */
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f8f8f8;
+}
+
+#navbar {
+    background: linear-gradient(to right, #ccc, #888);
+    color: #333;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 1s ease;
+}
+
+#navbar .logo, #navbar ul li a {
+    /* ... */
+    transition: color 0.3s ease;
+}
+
+#navbar .logo:hover, #navbar ul li a:hover {
+    color: #000;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background: #fff;
+    transition: background 1s ease;
+}
+
+.bg-img {
+    background: url('bg.jpg') no-repeat center center/cover;
+}
+
+footer {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #888;
+    color: #fff;
+    transition: background 1s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h1, h2, p, a {
+    animation: fadeIn 2s;
+}
+/* ... */
+.contact-methods {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-methods a {
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.contact-methods a:hover {
+    color: #000;
+}
+
+.fab, .fas {
+    margin-right: 10px;
+}
+/* ... */
+
+.bg-img {
+    position: relative;
+    background: url('https://webmg.ru/wp-content/uploads/2022/10/i-89-20-1024x502.jpeg') no-repeat center center/cover;
+    animation: fadeIn 2s;
+}
+
+
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+h1, h2, p, a, ol, h4, h3 {
+    animation: slideIn 2s;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
